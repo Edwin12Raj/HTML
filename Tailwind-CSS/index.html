@@ -1,27 +1,35 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Shoe Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-    <div class="shrink-0">
-        <span class="material-symbols-outlined">
-            chat
-            </span>
-            
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden max-w-sm">
+        <img class="w-full" src="https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg" alt="Retro Shoe">
+        <div class="p-6">
+            <h2 class="text-xl font-bold text-gray-900">Retro Shoe</h2>
+            <p class="text-lg text-gray-700">$89.00 <span class="text-green-500">IN STOCK</span></p>
+            <div class="flex mt-4">
+                <div class="flex-1">
+                    <div class="flex items-center space-x-2">
+                        <button class="bg-black text-white px-3 py-1 rounded">XS</button>
+                        <button class="bg-white text-black px-3 py-1 border border-gray-300 rounded">S</button>
+                        <button class="bg-white text-black px-3 py-1 border border-gray-300 rounded">M</button>
+                        <button class="bg-white text-black px-3 py-1 border border-gray-300 rounded">L</button>
+                        <button class="bg-white text-black px-3 py-1 border border-gray-300 rounded">XL</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-6 flex items-center space-x-4">
+                <button class="bg-teal-500 text-white px-6 py-2 rounded">BUY NOW</button>
+                <button class="bg-white text-black border border-gray-300 px-6 py-2 rounded">ADD TO BAG</button>
+                <button class="bg-white text-black border border-gray-300 p-2 rounded"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.344l1.172-1.172a4 4 0 115.656 5.656l-6.172 6.172a.75.75 0 01-1.06 0L3.172 10.83a4 4 0 010-5.658z" clip-rule="evenodd" /></svg></button>
+            </div>
+            <p class="mt-4 text-gray-500 text-sm">Free shipping on all continental US orders.</p>
+        </div>
     </div>
-    <div>
-      <div class="text-xl font-medium text-black">ChitChat</div>
-      <p class="text-slate-500">You have a new message!</p>
-    </div>
-  </div>
 </body>
 </html>
